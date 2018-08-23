@@ -1,0 +1,20 @@
+{
+  "name": "zoomdata-radar-chartjs",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack --mode development --watch"
+  },
+  "devDependencies": {
+    "babel-core": "6.26.3",
+    "babel-loader": "7.1.5",
+    "babel-preset-env": "1.7.0",
+    "copy-webpack-plugin": "4.5.2",
+    "webpack": "4.17.1",
+    "webpack-cli": "3.1.0"
+  },
+  "dependencies": {
+    "chart.js": "2.7.2"
+  }
+}
