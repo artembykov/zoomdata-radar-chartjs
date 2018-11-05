@@ -1,10 +1,7 @@
-const path = require('path');
-const CopyWebpackPlugin = require('copy-webpack-plugin');
-
 module.exports = {
     output: {
         filename: 'visualization.js',
-        path: path.resolve(__dirname, 'dist')
+        path: __dirname
     },
     mode: 'production',
     module: {
@@ -18,8 +15,5 @@ module.exports = {
                 }
             }
         ]
-    },
-    plugins: [
-        new CopyWebpackPlugin(['visualization.json'])
-    ]
+    }
 };
