@@ -2,9 +2,10 @@
   "name": "zoomdata-radar-chartjs",
   "version": "1.0.1",
   "files": [
-    "dist"
+    "visualization.js",
+    "visualization.json"
   ],
-  "main": "dist/visualization.js",
+  "main": "visualization.js",
   "scripts": {
     "build": "webpack",
     "start": "webpack --mode development --watch",
