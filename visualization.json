@@ -19,24 +19,6 @@
   ],
   "variables": [
     {
-      "name": "Chart Name",
-      "type": "string",
-      "descr": "",
-      "defaultValue": "",
-      "colorMetric": false,
-      "colorNumb": 0,
-      "required": false
-    },
-    {
-      "name": "Chart Description",
-      "type": "string",
-      "descr": "",
-      "defaultValue": "",
-      "colorMetric": false,
-      "colorNumb": 0,
-      "required": false
-    },
-    {
       "name": "Group By",
       "type": "group",
       "descr": "",
