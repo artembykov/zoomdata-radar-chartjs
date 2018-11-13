@@ -16,9 +16,6 @@
     "url": "https://github.com/artembykov/zoomdata-radar-chartjs.git"
   },
   "devDependencies": {
-    "babel-core": "6.26.3",
-    "babel-loader": "7.1.5",
-    "babel-preset-env": "1.7.0",
     "webpack": "4.17.1",
     "webpack-cli": "3.1.0"
   },
